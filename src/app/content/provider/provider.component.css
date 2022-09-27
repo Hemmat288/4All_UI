@@ -15,19 +15,27 @@ owl-carousel-o
   background-color:rgba(136, 219, 219, 0.4);
 }
 img{
-  height:150px;
+  height:130px;
   width: 100%;
-
+  border: none;
+  border-radius: 10%;
 }
 h1{
   color:  rgb(36, 136, 136);
 }
 button{
-  width: 150px;
+  width: 250px;
   border: none;
 margin-top: 10%;
 background-color: rgb(36, 136, 136);
+border-radius: 10%;
 }
 .card{
   background-color: rgb(36, 136, 136);
+  border: none;
+  border-radius: 10%;
+}
+
+.card-title{
+  padding-top: 10%;
 }

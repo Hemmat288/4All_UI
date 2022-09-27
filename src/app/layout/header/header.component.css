@@ -5,6 +5,7 @@
   text-align: center;
 height:235px;
 width:100%;
+color: #fff;
 }
 .right_logo img{
 width: 40px;
@@ -19,12 +20,17 @@ border-bottom: 3px solid #fff;
 p{
 padding-top: 2%;
   font-size: small;
-  line-height: .5;
-  color: #fff;
+  line-height: .1;
+
 }
-.navbar-nav{
-  margin-right: 10%;
+
+#navbarNav{
+  margin-left: 6%;
 }
 .nav-link{
   color: #fff;
+}
+.center_logo{
+  margin-top: 13%;
+  width: 70px;
 }

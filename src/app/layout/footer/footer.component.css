@@ -8,6 +8,9 @@
   width:100%;
   color: #fff;
 }
+.row{
+  margin-bottom: 10%;
+}
 .right_logo{
   margin-top: 10%;
 }
@@ -15,13 +18,30 @@
   border: 1px solid #fff;
   }
 .header_center{
-  margin-top: 5%;
+  margin-top: 7%;
   padding-left: 5%;
   font-size: small;
   line-height: .5;
 }
 .right_footer{
   margin-top: 10%;
+}
+.left_logo{
+  margin-left: 2%;
+  width: 80px;
+}
+.center_icons{
+  width: 20px;
+  height: 20px;
+
+}
+.right_icon{
+  width: 30px;
+  height: 30px;
+
+}
+.center_logo{
+  width: 70px;
 }
 /* p{
   margin-top: 50%;

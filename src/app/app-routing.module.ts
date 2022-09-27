@@ -6,9 +6,11 @@ import { CompanyDetailsComponent } from './pages/company-details/company-details
 const routes: Routes = [
 
   {path:'',component:HomeComponent},
+  {path:'home',component:HomeComponent},
 {path:'details',component:CompanyDetailsComponent},
-{path:'details',component:CompanyDetailsComponent},
+
   {path:'details/:id',component:CompanyDetailsComponent},
+  {path:'home/details/:id',component:CompanyDetailsComponent},
 ];
 
 @NgModule({

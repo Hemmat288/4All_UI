@@ -14,7 +14,7 @@
   }
   button{
     background-color: rgb(36, 136, 136);
-    border-radius: 0 100px 100px 0;
+    border-radius: 100px 100px 100px 100px;
     border: none;
     color: #fff;
     padding: 3% 8%;
