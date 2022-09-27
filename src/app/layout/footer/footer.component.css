@@ -1,0 +1,28 @@
+/* footer */
+
+#main-footer {
+  background: url('../../../assets/Assets/Footer_and_Header/footer3.PNG');
+  text-align: center;
+  /* padding: 15px; */
+  height:230px;
+  width:100%;
+  color: #fff;
+}
+.right_logo{
+  margin-top: 10%;
+}
+.right_logo img{
+  border: 1px solid #fff;
+  }
+.header_center{
+  margin-top: 5%;
+  padding-left: 5%;
+  font-size: small;
+  line-height: .5;
+}
+.right_footer{
+  margin-top: 10%;
+}
+/* p{
+  margin-top: 50%;
+} */

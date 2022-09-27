@@ -1,0 +1,30 @@
+
+
+#main-header {
+  background: url('../../../assets/Assets/Footer_and_Header/header2.PNG');
+  text-align: center;
+height:235px;
+width:100%;
+}
+.right_logo img{
+width: 40px;
+height: 40px;
+margin-right: 75%;
+border-bottom: 3px solid #fff;
+border-bottom: 3px solid #fff;
+}
+.header_center{
+  padding-left: 5%;
+}
+p{
+padding-top: 2%;
+  font-size: small;
+  line-height: .5;
+  color: #fff;
+}
+.navbar-nav{
+  margin-right: 10%;
+}
+.nav-link{
+  color: #fff;
+}

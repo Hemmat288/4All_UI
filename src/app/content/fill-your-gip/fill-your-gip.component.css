@@ -1,0 +1,13 @@
+.container{
+width: 90%;
+margin: auto;
+margin-bottom: 8%;
+}
+.left img{
+  width: 400px;
+  padding-left: 15%;
+}
+.right{
+  padding-left: 10%;
+  margin-top: 4%;
+}
