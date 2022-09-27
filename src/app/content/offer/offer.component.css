@@ -1,13 +1,14 @@
 .container{
   width: 90%;
   margin: auto;
-  margin-bottom: 12%;
+  margin-bottom: 17%;
+  margin-top: 12%;
   }
   .right img{
-    width: 400px;
-    padding-left: 15%;
+    width: 510px;
+    padding-right: 10%;
   }
   .left{
-    padding-left: 10%;
+    padding-left: 14%;
     margin-top: 4%;
   }

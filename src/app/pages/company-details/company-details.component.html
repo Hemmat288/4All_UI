@@ -1,0 +1,126 @@
+<div class="container-fluid mt-2 mb-5" style="position: relative; ">
+  <div class="row no-gutters">
+    <div class="col-md-5 pr-2">
+      <div class="card">
+        <div class="demo">
+          <img src="{{ company[0].img1 }}"
+            width="100%" />
+          <img />
+        </div>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="container-fluid" class="card">
+        <div class="about">
+
+
+          <p> <span>Name : </span> {{ company[0].name }}</p>
+          <hr>
+          <p> <span>Description : </span> {{ company[0].description }}</p>
+          <hr>
+          <p><span>Social links : </span> {{ company[0].social_link }}</p>
+          <hr>
+          <p> <span> Email :</span> {{ company[0].email }}</p>
+          <hr>
+          <p> <span>Hotline :</span>  {{ company[0].hotline }}</p>
+          <hr>
+          <p> <span>Review : </span> {{ company[0].review }}</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------------------------ owner ------------------------>
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-4">
+      <p>
+        <button class="readmore" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1"
+          aria-expanded="false" aria-controls="collapseWidthExample1">
+          Read More about Owner
+        </button>
+      </p>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample1">
+          <div class="card card-body" style="width: 300px;">
+
+            <p>Name : {{ company[0].owner.name }} </p>
+            <hr>
+            <p>Email : {{ company[0].owner.email }}</p>
+            <hr>
+            <p>mobile : {{ company[0].owner.mobile }}</p>
+            <hr>
+            <p>gender :   {{ company[0].owner.gender }}</p>
+            <hr>
+            <p>birthdate :   {{ company[0].owner.birthdate }}</p>
+
+            </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------ address ------------------------>
+    <div class="col-md-4">
+
+      <p>
+        <button class="readmore" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample2"
+          aria-expanded="false" aria-controls="collapseWidthExample2">
+          Read More about Address
+        </button>
+      </p>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample2">
+          <div class="card card-body" style="width: 300px;">
+
+            <p>city:  {{ company[0].address.city }}</p>
+            <hr>
+            <p>street:  {{ company[0].address.street }}</p>
+            <hr>
+            <p>building:  {{ company[0].address.building }}</p>
+            <hr>
+            <p>intercom :  {{ company[0].address.intercom }}</p>
+            <hr>
+            <p>floor:  {{ company[0].address.floor }}</p>
+            <hr>
+            <p>detailed_address : {{ company[0].address.detailed_address }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------ package ------------------------>
+    <div class="col-md-4">
+      <p>
+        <button class="readmore
+        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3"
+          aria-expanded="false" aria-controls="collapseWidthExample3">
+          Read More about pachage
+        </button>
+      </p>
+      <div style="min-height: 120px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample3">
+          <div class="card card-body" style="width: 300px;">
+            <p>code :  {{ company[0].package.code }}</p>
+            <hr>
+            <p>cost : {{ company[0].package.cost }}</p>
+            <hr>
+            <p>tax : {{ company[0].package.tax }}</p>
+            <hr>
+            <p>fees :  {{ company[0].package.fees }}</p>
+            <hr>
+            <p>name : {{ company[0].package.name }}</p>
+            <hr>
+            <p>description : {{ company[0].package.description }}</p>
+            <hr>
+            <p>company_type : {{ company[0].package.company_type }}</p>
+            <hr>
+            <p>currency : {{ company[0].package.currency }}</p>
+
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

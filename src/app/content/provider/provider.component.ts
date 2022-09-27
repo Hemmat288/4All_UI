@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
 import { Company } from 'src/app/_models/company.models';
 import { CompanyService } from 'src/app/_service/company.service';
-
+import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-provider',
   templateUrl: './provider.component.html',
   styleUrls: ['./provider.component.css']
 })
 export class ProviderComponent implements OnInit {
+
 
   companies;
   companyArray!:Company[];
@@ -21,10 +22,15 @@ export class ProviderComponent implements OnInit {
     this.companies=this.companyArray;
   }
 
-  constructor(public companyService:CompanyService) {
+  constructor(public companyService:CompanyService , private router: Router) {
     this.companies=companyService.GetAllCompanies()
+
   }
-  searchas(){
+
+  goPlaces=  () => {
+    this.router.navigateByUrl('/details');
+};
+  searchas(): void{
 
     this.companies=this.companyService.GetAllCompanies();
 
@@ -37,12 +43,14 @@ export class ProviderComponent implements OnInit {
 
   customOptions: OwlOptions = {
     loop: true,
-    mouseDrag: false,
-    touchDrag: false,
+    mouseDrag: true,
+    touchDrag: true,
     pullDrag: false,
     dots: false,
     navSpeed: 700,
-    navText: ['', ''],
+    navText: [ "<i class='fa fa-chevron-left'></i>",
+    "<i class='fa fa-chevron-right'></i>"],
+
     responsive: {
       0: {
         items: 1
@@ -54,11 +62,14 @@ export class ProviderComponent implements OnInit {
         items: 3
       },
       940: {
-        items: 4
+        items: 3
       }
     },
     nav: true
   }
+
+
+
 
 }
 

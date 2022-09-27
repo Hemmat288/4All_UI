@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home/home.component';
 import { FillYourGipComponent } from './content/fill-your-gip/fill-your-gip.component';
 import { OfferComponent } from './content/offer/offer.component';
 import { ProviderComponent } from './content/provider/provider.component';
+import { CompanyDetailsComponent } from './pages/company-details/company-details.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ProviderComponent } from './content/provider/provider.component';
     FillYourGipComponent,
     OfferComponent,
     ProviderComponent,
+    CompanyDetailsComponent,
     // CarouselHolderComponent
   ],
   imports: [
