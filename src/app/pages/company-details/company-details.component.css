@@ -4,42 +4,21 @@ background-color: #eee;
 font-family: "Poppins", sans-serif
 }
 .row{
-  margin-top: 10%;
-}
-.card {
-background-color: #fff;
-padding: 14px;
-border: none
-}
-.demo {
-width: auto
-}
-.demo img{
-height: 400px;
-}
-
-hr {
-color: #d4d4d4
-}
-
-/* .card-body {
-padding: 0.3rem 0.3rem 0.2rem
-} */
-span{
-  color: #8d3d7b;
-  font-weight: bolder;
-}
-
-.readmore{
-  background-color: #8d3d7b;
-  color: #fff;
-  border-radius: 9%;
-  padding: 3% 5%;
-  border: none;
-
-}
-h5{
+  margin: 10% 0% 10% 0%;
   text-align: center;
-  color: #8d3d7b;
-  margin: 5% 0% 10% 0%;
+  align-items: center;
+}
+
+
+p{
+font-size: smaller;
+}
+h2{
+  color:  rgb(36, 136, 136);
+}
+.owner{
+  margin-top: -9%;
+}
+.address{
+  margin-top: -5%;
 }
