@@ -139,10 +139,10 @@
   <h2>  {{ company[0].name }}</h2>
   <p> {{ company[0].description }}</p>
 
-  <p> Email: {{ company[0].email }} &nbsp; &nbsp; &nbsp;  Social Link: {{ company[0].social_link }}</p>
+  <p><a href="mailto:someone@yoursite.com"> Email: {{ company[0].email }}</a> &nbsp; &nbsp; &nbsp;  Social Link: {{ company[0].social_link }}</p>
 
 
-  <p> hotline: {{ company[0].hotline }} &nbsp; &nbsp; &nbsp;  review{{ company[0].review }}</p>
+  <p> hotline: {{ company[0].hotline }} &nbsp; &nbsp; &nbsp;  review : {{ company[0].review }}</p>
 
   <p> </p>
 
@@ -157,7 +157,7 @@
 <h2>Owner</h2>
 <p>Name : {{ company[0].owner.name }} </p>
 
-<a href="https://accounts.google.com">Email : {{ company[0].owner.email }}</a>
+<a href="mailto:someone@yoursite.com">Email : {{ company[0].owner.email }}</a>
 
 <p>mobile : {{ company[0].owner.mobile }}</p>
 

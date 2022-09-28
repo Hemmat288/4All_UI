@@ -20,7 +20,7 @@ export class CompanyService {
     email: "Amazon@gmail.com",
     hotline: '34897/983',
     review: 44.85,
-    owner: { id: 11, name: "Dalia", image: "https://picsum.photos/10/300", email: "Dalia@orlydns.com", gender: 'male', birthdate: "14/11/1996" , mobile:"06541585"}
+    owner: { id: 11, name: "Dalia", image: "https://picsum.photos/10/300", email: "mmhemat99@gmail.com", gender: 'male', birthdate: "14/11/1996" , mobile:"06541585"}
     ,
     address: { id: 11, city: "sohag", street: 50, building: 404, intercom: "NA", floor: "ffffff", detailed_address: "dddddd" }
     ,
